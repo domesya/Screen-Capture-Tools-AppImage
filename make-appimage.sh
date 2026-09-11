@@ -12,6 +12,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=DUMMY
 export DESKTOP=DUMMY
 export MAIN_BIN=maim
+export URUNTIME_PRELOAD=1
 # Deploy dependencies
 quick-sharun \
   /usr/bin/maim \
